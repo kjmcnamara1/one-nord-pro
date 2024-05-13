@@ -276,18 +276,35 @@
     "enum": "#F2DEB6",
     "class": "#EBCB8B",
     "property": "#DE878F",
-    "variable": "#ECEFF4",
+    "variable": "#C8D0E0",
     "function": "#5E81AC",
     "method": "#81A1C1",
     "magicFunction": "#88C0D0",
     "enumMember": "#88C0D0",
-    "variable.declaration": { "fontStyle": "bold" },
+    "tomlArrayKey": "#81A1C1",
+    "tomlTableKey": "#EBCB8B",
+    "variable.declaration": { "foreground": "#ECEFF4", "fontStyle": "bold" },
     "variable.readonly": { "foreground": "#C05E3F" },
     "*.decorator": { "foreground": "#8FBCBB", "fontStyle": "bold" },
     "selfParameter": { "foreground": "#D99D26", "fontStyle": "italic" },
     "clsParameter": { "foreground": "#D99D26", "fontStyle": "italic" }
   },
   "tokenColors": [
+    {
+      "name": "toml table",
+      "scope": ["support.type.property-name.table.toml"],
+      "settings": {
+        "foreground": "#EBCB8B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "toml property",
+      "scope": ["support.type.property-name.toml"],
+      "settings": {
+        "foreground": "#DE878F"
+      }
+    },
     {
       "name": "unison punctuation",
       "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
@@ -1075,7 +1092,6 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#81A1C1"
       }
     },
@@ -1083,7 +1099,6 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#84b4ba"
       }
     },
