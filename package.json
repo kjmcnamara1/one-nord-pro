@@ -2,7 +2,7 @@
   "name": "one-nord-pro",
   "displayName": "One Nord Pro",
   "description": "One Dark theme with Nord color palette",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.89.0"
   },
