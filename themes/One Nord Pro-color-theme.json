@@ -284,7 +284,8 @@
     "variable.declaration": { "fontStyle": "bold" },
     "variable.readonly": { "foreground": "#C05E3F" },
     "*.decorator": { "foreground": "#8FBCBB", "fontStyle": "bold" },
-    "selfParameter": { "foreground": "#D99D26", "fontStyle": "italic" }
+    "selfParameter": { "foreground": "#D99D26", "fontStyle": "italic" },
+    "clsParameter": { "foreground": "#D99D26", "fontStyle": "italic" }
   },
   "tokenColors": [
     {
