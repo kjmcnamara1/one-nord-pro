@@ -1,0 +1,21 @@
+{
+  "name": "one-nord-pro",
+  "displayName": "One Nord Pro",
+  "description": "One Dark theme with Nord color palette",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Nord Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/One Nord Pro-color-theme.json"
+      }
+    ]
+  }
+}
