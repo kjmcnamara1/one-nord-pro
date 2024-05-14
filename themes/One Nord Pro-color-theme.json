@@ -272,7 +272,7 @@
     "module": "#D99D26",
     "string": "#A3BE8C",
     "number": "#D08770",
-    "builtinConstant": "#DCA694",
+    "builtinConstant": "#D08770",
     // "builtinConstant": "#DCA694",
     "enum": "#F2DEB6",
     "class": "#EBCB8B",
