@@ -276,6 +276,7 @@
     // "builtinConstant": "#DCA694",
     "enum": "#F2DEB6",
     "class": "#EBCB8B",
+    "class.builtin": "#88C0D0",
     "property": "#DE878F",
     "variable": "#C8D0E0",
     "function": "#5E81AC",
