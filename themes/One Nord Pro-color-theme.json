@@ -289,8 +289,8 @@
     "variable.declaration": { "foreground": "#ECEFF4", "fontStyle": "bold" },
     "variable.readonly": { "foreground": "#C05E3F" },
     "*.decorator": { "foreground": "#8FBCBB", "fontStyle": "bold" },
-    "selfParameter": { "foreground": "#D99D26", "fontStyle": "italic" },
-    "clsParameter": { "foreground": "#D99D26", "fontStyle": "italic" }
+    "selfParameter": { "foreground": "#EBCB8B", "fontStyle": "italic" },
+    "clsParameter": { "foreground": "#EBCB8B", "fontStyle": "italic" }
   },
   "tokenColors": [
     {
